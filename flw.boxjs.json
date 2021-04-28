@@ -1,0 +1,59 @@
+{
+    "id": "ziye.app.sub",
+    "name": "ziye 脚本订阅",
+    "author": "@ZIYE",
+    "icon": "https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/ziye.png",
+    "repo": "https://github.com/ziye888",
+    "apps": [
+        {
+            "id": "flw",
+            "name": "返利网",
+            "keys": ["flwurl", "flwheader", "flwspbody", "flwqwbody", "flwydbody", "flwurl2", "flwheader2", "flwspbody2", "flwqwbody2", "flwydbody2", "flwurl3", "flwheader3", "flwspbody3", "flwqwbody3", "flwydbody3", "flwurl4", "flwheader4", "flwspbody4", "flwqwbody4", "flwydbody4", "flwurl5", "flwheader5", "flwspbody5", "flwqwbody5", "flwydbody5", "flwurl6", "flwheader6", "flwspbody6", "flwqwbody6", "flwydbody6", "flwurl7", "flwheader7", "flwspbody7", "flwqwbody7", "flwydbody7", "flwurl8", "flwheader8", "flwspbody8", "flwqwbody8", "flwydbody8", "flwurl9", "flwheader9", "flwspbody9", "flwqwbody9", "flwydbody9", "flwurl10", "flwheader10", "flwspbody10", "flwqwbody10", "flwydbody10", "flwurl11", "flwheader11", "flwspbody11", "flwqwbody11", "flwydbody11", "flwurl12", "flwheader12", "flwspbody12", "flwqwbody12", "flwydbody12", "flwurl13", "flwheader13", "flwspbody13", "flwqwbody13", "flwydbody13", "flwurl14", "flwheader14", "flwspbody14", "flwqwbody14", "flwydbody14", "flwurl15", "flwheader15", "flwspbody15", "flwqwbody15", "flwydbody15", "flwurl16", "flwheader16", "flwspbody16", "flwqwbody16", "flwydbody16", "flwurl17", "flwheader17", "flwspbody17", "flwqwbody17", "flwydbody17", "flwurl18", "flwheader18", "flwspbody18", "flwqwbody18", "flwydbody18", "flwurl19", "flwheader19", "flwspbody19", "flwqwbody19", "flwydbody19", "flwurl20", "flwheader20", "flwspbody20", "flwqwbody20", "flwydbody20"],
+            "author": "@ziye",
+            "settings": [{
+                    "id": "flwSuffix",
+                    "name": "当前账号",
+                    "val": "1",
+                    "type": "number",
+                    "desc": "当前抓取ck记录的账号序号，如：1、2、3、"
+                },
+                {
+                    "id": "flwCount",
+                    "name": "账号个数",
+                    "val": "1",
+                    "type": "number",
+                    "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
+                },
+                {
+                    "id": "flwCASH",
+                    "name": "天天领现金提现标准",
+                    "val": "0",
+                    "type": "number",
+                    "desc": "默认0，设置0.3及以上时启动天天领现金模块，且大于等于此值时自动提现"
+                },
+                {
+                    "id": "flwDHCASH",
+                    "name": "兑换标准",
+                    "val": "0",
+                    "type": "number",
+                    "desc": "默认0，可设置设置 0 5 50 100"
+                }
+            ],
+            "repo": "https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/flw.js",
+            "icons": ["https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/flw.png", "https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/flw.png"],
+            "script": "https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/flw.js"
+        },
+        {   "id": "tls",
+            "name": "特仑苏小程序",
+            "keys": ["tlsurl", "tlsheader", "tlsurl2", "tlsheader2", "tlsurl3", "tlsheader3",  "tlsurl4", "tlsheader4",   "tlsurl5", "tlsheader5", "tlsurl6", "tlsheader6","tlsurl7", "tlsheader7", "tlsurl8", "tlsheader8", "tlsurl9", "tlsheader9", "tlsurl10", "tlsheader10", "tlsurl11", "tlsheader11", "tlsurl12", "tlsheader12",  "tlsurl13", "tlsheader13", "tlsurl14", "tlsheader14", "tlsurl15", "tlsheader15", "tlsurl16", "tlsheader16","tlsurl17", "tlsheader17", "tlsurl18", "tlsheader18",  "tlsurl19", "tlsheader19", "tlsurl20", "tlsheader20"],
+            "author": "@ziye",
+            "settings": [{
+        "id": "tlsSuffix",
+        "name": "当前账号",
+        "val": "1",
+        "type": "number",
+        "desc": "当前抓取ck记录的账号序号，如：1、2、3、"
+    }
+
+    ]
+}
